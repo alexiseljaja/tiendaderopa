@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #b2e0f7;"> <!-- Color de fondo celeste -->
+    <header class="bg-dark text-white text-center py-3">
+        <h1>Tienda de Ropa</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="sobre-nosotros.html">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <section id="productos">
+            <h2 class="text-center">Productos Destacados</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="img/img1.jpg" class="card-img-top" alt="Camisa de Algodón">
+                        <div class="card-body">
+                            <h5 class="card-title">Camisa de Algodón</h5>
+                            <p class="card-text">Precio: $25.00</p>
+                            <button class="btn btn-primary">Agregar al Carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="img/img2.jpg" class="card-img-top" alt="Jeans">
+                        <div class="card-body">
+                            <h5 class="card-title">Jeans</h5>
+                            <p class="card-text">Precio: $40.00</p>
+                            <button class="btn btn-primary">Agregar al Carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="img/img3.jpg" class="card-img-top" alt="Vestido de Verano">
+                        <div class="card-body">
+                            <h5 class="card-title">Vestido de Verano</h5>
+                            <p class="card-text">Precio: $30.00</p>
+                            <button class="btn btn-primary">Agregar al Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Tienda de Ropa. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Enlace a Bootstrap JS y dependencias (opcional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
